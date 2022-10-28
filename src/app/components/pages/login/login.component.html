@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: #d9cce6;
+      }
+      h3,
+      .btn-branco,
+      .btn-roxo {
+        font-family: ActayWide-Bold;
+      }
+      #forgotpass {
+        color: #454f5b;
+        text-decoration-line: underline;
+        display: flex;
+        align-items: center;
+        left: 578px;
+      }
+
+      a,
+      a:hover,
+      a:visited,
+      a:active {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .login,
+      .image {
+        min-height: 100vh;
+        font-family: Actay-Regular;
+      }
+
+      .bg-image {
+        background-image: url("../assets/img/loginscreen.png");
+        background-size: cover;
+        background-position: center center;
+      }
+
+      input {
+        background: #f4f6f8;
+        border-radius: 16px;
+      }
+
+      .btn-roxo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 32px;
+        background: #430084;
+        color: #f4f6f8;
+        border-radius: 40px;
+        border: 2px solid #430084;
+      }
+
+      .btn-roxo:hover,
+      .btn-roxo:focus,
+      .btn-roxo:active,
+      .btn-roxo.active,
+      .open > .dropdown-toggle.btn-roxo {
+        background: #fff;
+        color: #430084;
+        border: 2px solid #430084;
+        transition: 0.3s;
+      }
+
+      .btn-branco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 32px;
+        background: #fff;
+        color: #430084;
+        border-radius: 40px;
+        border: 2px solid #430084;
+      }
+
+      .btn-branco:hover,
+      .btn-branco:focus,
+      .btn-branco:active,
+      .btn-branco.active,
+      .open > .dropdown-toggle.btn-branco {
+        background: #430084;
+        color: #fff;
+        border: 2px solid #430084;
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- The content half -->
+        <div class="col-md-6">
+          <div class="card login d-flex align-items-center py-5">
+            <!-- Demo content-->
+            <div class="card-container">
+              <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12">
+                  <h3>Optheya</h3>
+                  <p class="text-muted mb-4">
+                    Seu restaurante, uma realidade a frente de tudo!
+                  </p>
+                  <form>
+                    <div class="form-group mb-3">
+                      <label for="inputEmail">E-mail</label>
+                      <input
+                        id="inputEmail"
+                        type="email"
+                        class="form-control border-0 px-4"
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="inputPassword">Senha</label>
+                      <input
+                        id="inputPassword"
+                        type="password"
+                        class="form-control border-0 px-4 text-roxo"
+                      />
+                      <a
+                        id="forgotpass"
+                        class="d-flex justify-content-between"
+                        routerLink="/forgotpass"
+                        >Esqueci minha senha</a
+                      >
+                    </div>
+                    <a routerLink="/home"
+                      ><button type="submit" class="btn-roxo col-md-12">
+                        Entrar
+                      </button></a
+                    >
+                    >
+                    <br />
+                    <a routerLink="/cadastro"
+                      ><button type="submit" class="btn-branco col-md-12">
+                        Criar conta grátis
+                      </button></a
+                    >
+                  </form>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Ao criar uma conta, você aceita os
+                      <a routerLink="/termosuso"><u>Termos de Uso</u></a> e
+                      <a routerLink="/politicasprivacidade"
+                        ><u>Políticas de Privacidade</u></a
+                      ></small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+        <!-- End -->
+        <!-- The image half -->
+        <div class="col-md-6 d-none d-md-flex bg-image"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
