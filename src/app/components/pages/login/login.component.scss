@@ -1,0 +1,101 @@
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+#forgotpass {
+  color: #454f5b;
+  text-decoration-line: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:visited,
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+.bg-image {
+  background-image: url("../../../../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    background: #fff;
+    color: #430084;
+    border: 2px solid #430084;
+    transition: 0.3s;
+  }
+}
+
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    background: #430084;
+    color: #fff;
+    border: 2px solid #430084;
+    transition: 0.3s;
+  }
+}
+
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}

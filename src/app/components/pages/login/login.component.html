@@ -10,94 +10,6 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        background: #d9cce6;
-      }
-      h3,
-      .btn-branco,
-      .btn-roxo {
-        font-family: ActayWide-Bold;
-      }
-      #forgotpass {
-        color: #454f5b;
-        text-decoration-line: underline;
-        display: flex;
-        align-items: center;
-        left: 578px;
-      }
-
-      a,
-      a:hover,
-      a:visited,
-      a:active {
-        text-decoration: none;
-        color: inherit;
-      }
-
-      .login,
-      .image {
-        min-height: 100vh;
-        font-family: Actay-Regular;
-      }
-
-      .bg-image {
-        background-image: url("../assets/img/loginscreen.png");
-        background-size: cover;
-        background-position: center center;
-      }
-
-      input {
-        background: #f4f6f8;
-        border-radius: 16px;
-      }
-
-      .btn-roxo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 18px 32px;
-        background: #430084;
-        color: #f4f6f8;
-        border-radius: 40px;
-        border: 2px solid #430084;
-      }
-
-      .btn-roxo:hover,
-      .btn-roxo:focus,
-      .btn-roxo:active,
-      .btn-roxo.active,
-      .open > .dropdown-toggle.btn-roxo {
-        background: #fff;
-        color: #430084;
-        border: 2px solid #430084;
-        transition: 0.3s;
-      }
-
-      .btn-branco {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 18px 32px;
-        background: #fff;
-        color: #430084;
-        border-radius: 40px;
-        border: 2px solid #430084;
-      }
-
-      .btn-branco:hover,
-      .btn-branco:focus,
-      .btn-branco:active,
-      .btn-branco.active,
-      .open > .dropdown-toggle.btn-branco {
-        background: #430084;
-        color: #fff;
-        border: 2px solid #430084;
-        transition: 0.3s;
-      }
-    </style>
   </head>
   <body>
     <div class="container-fluid">
@@ -109,8 +21,8 @@
             <div class="card-container">
               <div class="row">
                 <div class="col-md-12 col-lg-12 col-xl-12">
-                  <h3>Optheya</h3>
-                  <p class="text-muted mb-4">
+                  <h3 class="text-center">Optheya</h3>
+                  <p class="text-muted mb-4 text-center">
                     Seu restaurante, uma realidade a frente de tudo!
                   </p>
                   <form>
@@ -131,7 +43,7 @@
                       />
                       <a
                         id="forgotpass"
-                        class="d-flex justify-content-between"
+                        class="text-right"
                         routerLink="/forgotpass"
                         >Esqueci minha senha</a
                       >
@@ -140,7 +52,6 @@
                       ><button type="submit" class="btn-roxo col-md-12">
                         Entrar
                       </button></a
-                    >
                     >
                     <br />
                     <a routerLink="/cadastro"

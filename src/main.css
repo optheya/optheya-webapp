@@ -1,0 +1,657 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: ActayWide-Bold;
+  src: url("../assets/fonts/ActayWide-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: ActayWide-BoldItalic;
+  src: url("../assets/fonts/ActayWide-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: Actay-Regular;
+  src: url("../assets/fonts/Actay-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: Actay-RegularItalic;
+  src: url("../assets/fonts/Actay-RegularItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: ActayCondensed-Thin;
+  src: url("../assets/fonts/ActayCondensed-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: ActayCondensed-ThinItalic;
+  src: url("../assets/fonts/ActayCondensed-ThinItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: Kurye-Light;
+  src: url("../assets/fonts/Kurye-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Kurye-LightItalic;
+  src: url("../assets/fonts/Kurye-LightItalic.otf") format("opentype");
+}
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+#forgotpass {
+  color: #454f5b;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  left: 578px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  /* 06 Cinza / 800 */
+  color: #212b36;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+button:disabled,
+button[disabled] {
+  background: #919eab;
+  border: 2px solid #919eab;
+  color: #f7f7fc;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+#forgotpass {
+  color: #454f5b;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  left: 578px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+body {
+  background: #d9cce6;
+}
+
+h3,
+.btn-branco,
+.btn-roxo {
+  font-family: ActayWide-Bold;
+}
+
+#forgotpass {
+  color: #454f5b;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  left: 578px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+  font-family: Actay-Regular;
+}
+
+.bg-image {
+  background-image: url("../assets/img/loginscreen.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+input {
+  background: #f4f6f8;
+  border-radius: 16px;
+}
+
+.btn-roxo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #430084;
+  color: #f4f6f8;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active,
+.btn-roxo.active,
+.open > .dropdown-toggle.btn-roxo {
+  background: #fff;
+  color: #430084;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}
+
+.btn-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #fff;
+  color: #430084;
+  border-radius: 40px;
+  border: 2px solid #430084;
+}
+
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active,
+.btn-branco.active,
+.open > .dropdown-toggle.btn-branco {
+  background: #430084;
+  color: #fff;
+  border: 2px solid #430084;
+  transition: 0.3s;
+}/*# sourceMappingURL=main.css.map */
